@@ -42,10 +42,10 @@ public class Main {
                 userInput.close();
                 break; // Break out of display infinite loop
 
-            }
+            } // End of if
             
-        }
+        } // End of While
 
-    }
+    } // End of Main Tethod
 
-}
+} // End of Main Class
