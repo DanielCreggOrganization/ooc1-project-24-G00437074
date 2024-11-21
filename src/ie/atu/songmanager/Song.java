@@ -8,8 +8,15 @@ public class Song {
     private float numberOfPlays; 
     private double length;
 
+    // Constructor
+    public Song(int idNumber, String name, float numberOfPlays, double length){
+        this.idNumber = idNumber;
+        this.name = name;
+        this.numberOfPlays = numberOfPlays;
+        this.length = length;
+    }
 
-    // Getter and Setter Methods
+    // Getter Methods
     public int getidNumber(){
         return this.idNumber;
     }
@@ -26,6 +33,7 @@ public class Song {
         return this.length;
     }
 
+    // Setter Methods
     public void setidNumber(int idNumber){
         this.idNumber = idNumber;
     }
@@ -35,10 +43,11 @@ public class Song {
     public void setnumberOfPlays(float numberOfPlays){
         this.numberOfPlays = numberOfPlays;
     }
-    public void setlength(double Lenght){
+    public void setlength(double length){
         this.numberOfPlays = numberOfPlays;
     }
 
+    
 
 
 
