@@ -10,8 +10,8 @@ public class Main {
         Song songObject1 = new Song(1, "Rainbow", 85, 3.33);
         System.out.println(songObject1.getidNumber());
         System.out.println(songObject1.getName());
-        // System.out.println(songObject1.getnumberOfPlays());
-        //System.out.println(songObject1.getlength());
+        System.out.println(songObject1.getnumberOfPlays());
+        System.out.println(songObject1.getlength());
 
         // Create a Scanner 
         Scanner userInput = new Scanner(System.in);
