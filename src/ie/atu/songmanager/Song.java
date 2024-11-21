@@ -21,15 +21,15 @@ public class Song {
         return this.idNumber;
     }
 
-    public String name(){
+    public String getName(){
         return this.name;
     }
 
-    public float numberOfPlays(){
+    public float getnumberOfPlays(){
         return this.numberOfPlays;
     }
 
-    public double length(){
+    public double getlength(){
         return this.lengthMin;
     }
 
