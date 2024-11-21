@@ -6,14 +6,14 @@ public class Song {
     private int idNumber; // Unique ID
     private String name; 
     private float numberOfPlays; 
-    private double length;
+    private double lengthMin; //add Minute unit
 
     // Constructor
     public Song(int idNumber, String name, float numberOfPlays, double length){
         this.idNumber = idNumber;
         this.name = name;
         this.numberOfPlays = numberOfPlays;
-        this.length = length;
+        this.lengthMin = length;
     }
 
     // Getter Methods
@@ -30,7 +30,7 @@ public class Song {
     }
 
     public double length(){
-        return this.length;
+        return this.lengthMin;
     }
 
     // Setter Methods
@@ -44,7 +44,7 @@ public class Song {
         this.numberOfPlays = numberOfPlays;
     }
     public void setlength(double length){
-        this.numberOfPlays = numberOfPlays;
+        this.lengthMin = length;
     }
 
     
