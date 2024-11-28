@@ -47,4 +47,18 @@ public class Song {
         this.lengthMin = length;
     }
 
+    // Inheritance
+
+    private String title;
+
+    // Constructor to set the title
+    public Song(String title) {
+        this.title = title;
+    }
+
+    // Method to print a message when the song is playing
+    public void play() {
+        System.out.println("The song \"" + title + "\" is playing.");
+    }
+
 }

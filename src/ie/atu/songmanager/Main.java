@@ -45,7 +45,19 @@ public class Main {
 
         } // End of While
 
-} // End of Main Method
+        System.out.println();
+
+        // Inheritance
+
+        // Create an instance of Genre
+        Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
+
+        // Call the play() method
+        songObject2.play();
+
+        // Call the describeGenre() method
+        songObject2.describeGenre();
+
+    } // End of Main Method
 
 } // End of Main Class
-
