@@ -5,21 +5,20 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        
-        //Create Object
+
+        // Create Object
         Song songObject1 = new Song(1, "Rainbow", 85, 3.33);
         System.out.println(songObject1.getidNumber());
         System.out.println(songObject1.getName());
         System.out.println(songObject1.getnumberOfPlays());
         System.out.println(songObject1.getlength());
 
-        // Create a Scanner 
+        // Create a Scanner
         Scanner userInput = new Scanner(System.in);
         int userSelection = 0; // Used to store user Menu option selection
 
-
         // Create infinite while loop to display Menu after every command
-        while (true){
+        while (true) {
             // Display Menu to console
             System.out.println("");
             System.out.println("###############################");
@@ -35,7 +34,7 @@ public class Main {
             // Store user Menu option selection
             userSelection = userInput.nextInt();
 
-            if(userSelection == 5) { // Quit
+            if (userSelection == 5) { // Quit
 
                 System.out.println("Student Application Closing - Goodbye!");
                 // Close the USer Input Scanner
@@ -43,9 +42,10 @@ public class Main {
                 break; // Break out of display infinite loop
 
             } // End of if
-            
+
         } // End of While
 
-    } // End of Main Method
+} // End of Main Method
 
 } // End of Main Class
+
