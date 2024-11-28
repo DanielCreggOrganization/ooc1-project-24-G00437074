@@ -46,6 +46,6 @@ public class Main {
             
         } // End of While
 
-    } // End of Main Tethod
+    } // End of Main Method
 
 } // End of Main Class

@@ -47,8 +47,4 @@ public class Song {
         this.lengthMin = length;
     }
 
-    
-
-
-
 }
