@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Part 1: Encapsulation
+
         // Create Object
         Song songObject1 = new Song(1, "Rainbow", 85, 3.33);
         System.out.println(songObject1.getidNumber());
@@ -47,7 +49,7 @@ public class Main {
 
         System.out.println();
 
-        // Inheritance
+        // Part 2: Inheritance
 
         // Create an instance of Genre
         Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
@@ -57,6 +59,37 @@ public class Main {
 
         // Call the describeGenre() method
         songObject2.describeGenre();
+
+        System.out.println();
+
+        // Part 3: Polymorphism
+
+        // Part A) Method-Overiding
+
+        // Create instances of Music and its subclasses
+        Music rhythm = new Rhythm("Boom Boom", 120);
+        Music melody = new Melody("La La La", "C Major");
+
+        // Call describe() method to demonstrate overriding
+        rhythm.describe();
+        melody.describe();
+
+        System.out.println();
+
+        // Part B) Method-Overloading
+
+        // Create an instance of SongPlayCounter
+        SongPlayCounter counter = new SongPlayCounter();
+
+        // Increment play counts in different scenarios
+        counter.incrementPlay(); // Single play
+        counter.incrementPlay(5); // 5 plays
+        counter.incrementPlay(3, 10); // 3 plays for 10 users
+
+        // Display the total play count
+        System.out.println("Total song plays: " + counter.getTotalPlays());
+
+        System.out.println();
 
     } // End of Main Method
 
