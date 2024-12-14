@@ -1,6 +1,6 @@
 package ie.atu.songmanager;
 
-import java.util.ArrayList;
+//import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
@@ -44,31 +44,33 @@ public class Main {
                 userInput.close();
                 break; // Break out of display infinite loop
 
-            } // End of if
-
-        } // End of While
-
-        System.out.println();
-
-        // Part 2: Inheritance
-
-        // Create an instance of Genre
-        Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
-
-        // Call the play() method
-        songObject2.play();
-
-        // Call the describeGenre() method
-        songObject2.describeGenre();
-
-        System.out.println();
-
-        // Part 3: Polymorphism
+                 // Part 3: Polymorphism
 
 
 
-        // Part 4: Abstration
+    } // End of if
 
-    } // End of Main Method
+    } // End of While
+
+    System.out.println();
+
+    // Part 2: Inheritance
+
+    // Create an instance of Genre
+    Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
+
+    // Call the play() method
+    songObject2.play();
+
+    // Call the describeGenre() method
+    songObject2.describeGenre();
+
+    System.out.println();
+
+    // Part 3: Polymorphism
+
+    // Part 4: Abstration
+
+} // End of Main Method
 
 } // End of Main Class
