@@ -64,33 +64,6 @@ public class Main {
 
         // Part 3: Polymorphism
 
-        // Part A) Method-Overiding
-
-        // Create instances of Music and its subclasses
-        Music rhythm = new Rhythm("Boom Boom", 120);
-        Music melody = new Melody("La La La", "C Major");
-
-        // Call describe() method to demonstrate overriding
-        rhythm.describe();
-        melody.describe();
-
-        System.out.println();
-
-        // Part B) Method-Overloading
-
-        // Create an instance of SongPlayCounter
-        SongPlayCounter counter = new SongPlayCounter();
-
-        // Increment play counts in different scenarios
-        counter.incrementPlay(); // Single play
-        counter.incrementPlay(5); // 5 plays
-        counter.incrementPlay(3, 10); // 3 plays for 10 users
-
-        // Display the total play count
-        System.out.println("Total song plays: " + counter.getTotalPlays());
-
-        System.out.println();
-
         // Part 4: Abstration
 
     } // End of Main Method
