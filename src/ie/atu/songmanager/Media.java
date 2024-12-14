@@ -1,8 +1,7 @@
 package ie.atu.songmanager;
 
-    // Abstract class to demonstrate Abstraction
+// Abstract class to demonstrate Abstraction
 abstract class Media {
-
 
     private String title;
     private String genre;
