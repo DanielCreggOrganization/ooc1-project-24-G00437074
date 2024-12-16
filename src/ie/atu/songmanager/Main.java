@@ -44,46 +44,52 @@ public class Main {
                 userInput.close();
                 break; // Break out of display infinite loop
 
-                 // Part 3: Polymorphism
+                // Part 3: Polymorphism
 
+            } // End of if
 
+        } // End of While
 
-    } // End of if
+        System.out.println(); // Break
 
-    } // End of While
+        // Part 2: Inheritance
 
-    System.out.println(); // Break
+        // Create an instance of Genre
+        Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
 
-    // Part 2: Inheritance
+        // Call the play() method
+        songObject2.play();
 
-    // Create an instance of Genre
-    Genre songObject2 = new Genre("Like a Prayer", "Pop Rock");
+        // Call the describeGenre() method
+        songObject2.describeGenre();
 
-    // Call the play() method
-    songObject2.play();
+        System.out.println(); // Break
 
-    // Call the describeGenre() method
-    songObject2.describeGenre();
+        // Part 3: Polymorphism / Heterogeneous Collections
 
-    System.out.println(); // Break
+        // Create a basic Song
+        MusicLibrary basicSong = new MusicLibrary("Bad Romance", "Lady Gaga", 2009);
+        basicSong.play();
+        System.out.println(basicSong.getInfo());
 
-    // Part 3: Polymorphism / Heterogeneous Collections
+        System.out.println(); // Break
 
-     // Create a basic Song
-      MusicLibrary basicSong = new MusicLibrary("Bad Romance", "Lady Gaga", 2009);
-      basicSong.play();
-      System.out.println(basicSong.getInfo());
+        // Create a SongWithDuration object
+        SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278); // Duration in seconds
+        extendedSong.play(); // This will include the duration in the output
+        System.out.println(extendedSong.getInfo()); // This will include the duration in the info
 
-      System.out.println(); // Break
+        System.out.println(); // Break
 
-      // Create a SongWithDuration object
-      SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278);  // Duration in seconds
-      extendedSong.play();  // This will include the duration in the output
-      extendedSong.displayDuration();  // This will display the duration
-      System.out.println(extendedSong.getInfo());  // This will include the duration in the info
+        // Create a SongWithReleaseDate object (with release date)
+        SongWithReleaseDate extendedSongWithReleaseDate = new SongWithReleaseDate("Blinding Lights", "The Weeknd", 2019, "November 29, 2019");
+        extendedSongWithReleaseDate.play();  // This will include the release date in the output
+        System.out.println(extendedSongWithReleaseDate.getInfo());  // This will include the release date in the info
 
-    // Part 4: Abstration
+        System.out.println(); // Break
 
-} // End of Main Method
+        // Part 4: Abstration
+
+    } // End of Main Method
 
 } // End of Main Class
