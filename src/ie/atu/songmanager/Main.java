@@ -52,7 +52,7 @@ public class Main {
 
     } // End of While
 
-    System.out.println();
+    System.out.println(); // Break
 
     // Part 2: Inheritance
 
@@ -65,7 +65,7 @@ public class Main {
     // Call the describeGenre() method
     songObject2.describeGenre();
 
-    System.out.println();
+    System.out.println(); // Break
 
     // Part 3: Polymorphism / Heterogeneous Collections
 
@@ -74,7 +74,7 @@ public class Main {
       basicSong.play();
       System.out.println(basicSong.getInfo());
 
-      System.out.println();
+      System.out.println(); // Break
 
       // Create a SongWithDuration object
       SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278);  // Duration in seconds

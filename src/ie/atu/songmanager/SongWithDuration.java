@@ -1,12 +1,11 @@
 package ie.atu.songmanager;
 
-// SongWithDuration.java
 public class SongWithDuration extends MusicLibrary {
     private int duration;  // New instance variable for duration in seconds
     
     // Constructor to initialize the SongWithDuration object with title, artist, year, and duration
     public SongWithDuration(String title, String artist, int year, int duration) {
-        super(title, artist, year);  // Call the parent constructor (Song)
+        super(title, artist, year);  // Call the parent constructor
         this.duration = duration;    // Initialize the duration
     }
     
