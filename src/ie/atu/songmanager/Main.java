@@ -88,6 +88,26 @@ public class Main {
 
         System.out.println(); // Break
 
+        // Create a SongPlaylist object
+        SongPlaylist playlist = new SongPlaylist();
+        
+        // Create MusicLibrary objects (representing songs) and add them to the playlist
+        MusicLibrary2 song1 = new MusicLibrary2("Can't Get You Out of My Head", "Kylie Minogue");
+        MusicLibrary2 song2 = new MusicLibrary2("Say My Name", "Destiny's Child");
+        MusicLibrary2 song3 = new MusicLibrary2("Levitating", "Dua Lipa");
+        
+        playlist.addSong(song1);
+        playlist.addSong(song2);
+        playlist.addSong(song3);
+        
+        // Play all songs in the playlist
+        playlist.playAllSongs();
+        
+        // Show details of all songs in the playlist
+        playlist.showSongDetails();
+
+        System.out.println(); // Break
+
         // Part 4: Abstration
 
     } // End of Main Method
