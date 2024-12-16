@@ -74,34 +74,36 @@ public class Main {
         System.out.println(); // Break
 
         // Create a SongWithDuration object
-        SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278); // Duration in seconds
+        SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278); // Duration in
+                                                                                                     // seconds
         extendedSong.play(); // This will include the duration in the output
         System.out.println(extendedSong.getInfo()); // This will include the duration in the info
 
         System.out.println(); // Break
 
         // Create a SongWithReleaseDate object (with release date)
-        SongWithReleaseDate extendedSongWithReleaseDate = new SongWithReleaseDate("Blinding Lights", "The Weeknd", 2019, "November 29, 2019");
-        extendedSongWithReleaseDate.play();  // This will include the release date in the output
-        System.out.println(extendedSongWithReleaseDate.getInfo());  // This will include the release date in the info
+        SongWithReleaseDate extendedSongWithReleaseDate = new SongWithReleaseDate("Blinding Lights", "The Weeknd", 2019,
+                "November 29, 2019");
+        extendedSongWithReleaseDate.play(); // This will include the release date in the output
+        System.out.println(extendedSongWithReleaseDate.getInfo()); // This will include the release date in the info
 
         System.out.println(); // Break
 
         // Create a SongPlaylist object
         SongPlaylist playlist = new SongPlaylist();
-        
+
         // Create MusicLibrary objects (representing songs) and add them to the playlist
         MusicLibrary2 song1 = new MusicLibrary2("Can't Get You Out of My Head", "Kylie Minogue");
         MusicLibrary2 song2 = new MusicLibrary2("Say My Name", "Destiny's Child");
         MusicLibrary2 song3 = new MusicLibrary2("Levitating", "Dua Lipa");
-        
+
         playlist.addSong(song1);
         playlist.addSong(song2);
         playlist.addSong(song3);
-        
+
         // Play all songs in the playlist
         playlist.playAllSongs();
-        
+
         // Show details of all songs in the playlist
         playlist.showSongDetails();
 
@@ -111,15 +113,15 @@ public class Main {
 
         // Create a PopSong with title, artist, and album
         SongInfo popSong = new PopSong("Toxic", "Britney Spears", "In The Zone");
-        
+
         // Display the details of the PopSong
         popSong.displayDetails();
 
         System.out.println(); // Break
-        
+
         // Create a RockSong with title, artist, and album
         SongInfo rockSong = new RockSong("Bohemian Rhapsody", "Queen", "A Night at the Opera");
-        
+
         // Display the details of the RockSong
         rockSong.displayDetails();
 
