@@ -111,23 +111,19 @@ public class Main {
         // Part 4: Abstration
 
         // Create a PopSong with title, artist, and album
-        SongInfo popSong = new PopSong("Blinding Lights", "The Weeknd", "After Hours");
+        SongInfo popSong = new PopSong("Toxic", "Britney Spears", "In The Zone");
         
         // Display the details of the PopSong
         popSong.displayDetails();
-        
-        // Display the album of the PopSong
-        System.out.println("Album: " + popSong.getAlbum());
+
+        System.out.println(); // Break
         
         // Create a RockSong with title, artist, and album
         SongInfo rockSong = new RockSong("Bohemian Rhapsody", "Queen", "A Night at the Opera");
         
         // Display the details of the RockSong
         rockSong.displayDetails();
-        
-        // Display the album of the RockSong
-        System.out.println("Album: " + rockSong.getAlbum());
-        
+
     } // End of Main Method
 
 } // End of Main Class
