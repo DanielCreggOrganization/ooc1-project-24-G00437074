@@ -29,6 +29,5 @@ public class MusicLibrary {
     public String getInfo() {
         return "\"" + title + "\" by " + artist + " (" + year + ")";
 
-
     }
 }
