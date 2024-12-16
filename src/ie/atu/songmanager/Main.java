@@ -39,11 +39,9 @@ public class Main {
             if (userSelection == 5) { // Quit
 
                 System.out.println("Student Application Closing - Goodbye!");
-                // Close the USer Input Scanner
+                // Close the User Input Scanner
                 userInput.close();
                 break; // Break out of display infinite loop
-
-                // Part 3: Polymorphism
 
             } // End of if
 
