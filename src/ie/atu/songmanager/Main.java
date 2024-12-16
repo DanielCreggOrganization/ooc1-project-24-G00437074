@@ -67,7 +67,18 @@ public class Main {
 
     System.out.println();
 
-    // Part 3: Polymorphism
+    // Part 3: Polymorphism / Heterogeneous Collections
+
+     // Create a basic Song
+      MusicLibrary basicSong = new MusicLibrary("Imagine", "John Lennon", 1971);
+      basicSong.play();
+      System.out.println(basicSong.getInfo());
+
+      // Create a SongWithDuration object
+      SongWithDuration extendedSong = new SongWithDuration("Break My Soul", "Beyonce", 2022, 278);  // Duration in seconds
+      extendedSong.play();  // This will include the duration in the output
+      extendedSong.displayDuration();  // This will display the duration
+      System.out.println(extendedSong.getInfo());  // This will include the duration in the info
 
     // Part 4: Abstration
 
