@@ -110,7 +110,8 @@ public class Main {
 
         // Part 4: Abstration
 
-        SongInfo popSong = new PopSong("Toxic", "Britney Spears", "In The Zone");
+        // Create a PopSong with title, artist, and album
+        SongInfo popSong = new PopSong("Blinding Lights", "The Weeknd", "After Hours");
         
         // Display the details of the PopSong
         popSong.displayDetails();
@@ -126,7 +127,7 @@ public class Main {
         
         // Display the album of the RockSong
         System.out.println("Album: " + rockSong.getAlbum());
-
+        
     } // End of Main Method
 
 } // End of Main Class
