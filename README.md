@@ -104,10 +104,23 @@ Discuss in detail how the application is structured. List all classes and descri
 
 ## Roadblocks and Unfinished Functionality
 
+While I tried my best to implement these features, I have to admit that OOP is still a new concept for me and I found the whole process challenging. I am working to build my confidence and understanding in this area, however I did have to heavily rely on the labs and online resources to help me complete this project.
 
+I found it hard to get my head around the relationships between classes and how to extend functionality. I wasn't sure whether I was structuring my inheritance relationships correctly, especially when trying to decide when to use inheritance. However, I did try my best to apply the principles in the way I designed the song types and their subclasses.
+
+I also found the concept of method overriding and polymorphism challenging. For example, deciding when to use an overriden method versus keeping a base class was confusing. 
 
 ## Resources
 
 Provide links to resources used:
 
 * [Tutorialspoint](https://www.tutorialspoint.com/java/) - Java Tutorials site I found helpful
+* [W3Schools](https://www.w3schools.com/java/java_oop.asp)
+* [Linkedin](https://www.linkedin.com/learning/programming-foundations-object-oriented-design-3?trk=learning-topics_trending-courses_related-content-card&upsellOrderOrigin=default_guest_learning) - Linkedln course I completed to help me understand OOP more
+* [ChatGBT](https://chatgpt.com/)
+* [Mozilla Developer](https://developer.mozilla.org/en-US/)
+* [ChatGBT](https://chatgpt.com/)
+
+
+
+
