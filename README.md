@@ -30,6 +30,8 @@ List the instructions step by step
         - Song.java
         - Genre.java
         - MusicLibrary.java
+        - MusicLibrary2.java
+        - Main.java
         - SongWithDuration.java
         - SongWith ReleaseData.java
         - SongPlaylist.java
@@ -101,6 +103,37 @@ Discuss in detail how the application is structured. List all classes and descri
     A user menu system was implemented to interact with the user, providing options to perform different actions like adding or deleting artists. While this might not be overly complex, it added interactivity and allowed me to implement a looping menu system, which is useful for applications with a repetitive task flow.
 
     The use of the Scanner class to handle user input allows for a more dynamic interaction, letting the user decide what actions to take within the application.
+
+List of Classes and their Purposes:
+    
+        - Genre.java - This class extends Song.java to inherit the genre and song title to print the genre of the song entered.
+        - Main.java - Base class for every other class to interact with and print the output of each class.
+        - MusicLibrary.java - I created this class to showcase Polymoprhism/Heterogeneous Collections. Here you have instance variables
+                            to store song's info, constructer to initiliaze and 3 methods to play the song, stop the song and a method to
+                            print out the song's info in a string.
+        - MusicLibrary2.java - I had to create a second MusicLibary class (MusicLibrary2.java) because I couldn't figure out how to get
+                            the code to work in the initial class I created. I created this for the SongPlaylist.java class to print a list
+                            of songs in a playlist.
+        - PopSong.java - Class representing a Pop Song, extends the SongInfo class, with a constructor to initialize song, and also
+                        using Override to abstract method to return the song's album name.
+        - RockSong.java - Same as above, a class representing a Rock Song, extends the SongInfo class, uses abstration to return album
+                        name.
+        - Song.java - Created this class to showcase both Encapsulation and Inheritance. Here you have a constructor, getter and setter
+                    methods that interact with the Main.java class. You also have another constructor to set the song's title and print 
+                    the output.
+        - SongInfo.java - Abstract class representing a SongInfo, here you have constructor to initialize song's info, an abstract method 
+                        to return the song's album name and to display the song's details.
+        - SongPlaylist.java - Class representing a song playlist, using a list to store the song's in the playlist. Here, there is a 
+                            constructor to initialize playlist, method to add a song to the playlist, method to play all the songs in the
+                            playlist and a method to list all the songs in the playlist.
+        - SongWithDuration.java - This class was created for the Heterogeneous Collection to print the song's duration in the output.  
+                                It extends the MusicLibrary.java class. Included in this clas is a constructor to initialize info, and Override method to include the duration when playing the song and a second Override method to override the getInfo() method to include duration.
+        - SongWith ReleaseData.java - Same as above, class created for the Hetergenous Collection to print the song's release date. It
+                                    extends the MusicLibrary.java class. Included in this clas is a constructor to initialize info, and Override method to include the song's release date when playing the song and a second Override method to override the getInfo() method to include durrelease date.
+
+List of Method's and their Functions:
+    
+
 
 ## Roadblocks and Unfinished Functionality
 
