@@ -9,7 +9,7 @@
 
 My Application, Song Manager, has a variety of things it does to ensure all 4 Pillars of OOP are used.
 
-For Encapsulation, the code provides a basic framework for an interactive console-based application that display details of a Song Object, allowes the user to interact with a menuc and continunes to run until the user selects to quit.
+For Encapsulation, the code provides a basic framework for an interactive console-based application that display details of a Song Object, allowes the user to interact with a menu and continues to run until the user selects to quit.
 
 For Inheritance, the code demonstrates how inheritance can be used, where the Genre class inherits methods from the parent class (Song) and add it's own functionality specific to the song's genre.
 
