@@ -132,8 +132,39 @@ List of Classes and their Purposes:
                                     extends the MusicLibrary.java class. Included in this clas is a constructor to initialize info, and Override method to include the song's release date when playing the song and a second Override method to override the getInfo() method to include durrelease date.
 
 List of Method's and their Functions:
+        - public void describeGenre // Method to print the genre of the song
+        - songObject2.play(); // Call the play() method
+        - songObject2.describeGenre(); // Call the describeGenre() method
+        - basicSong.play(); // plays song in output
+        - extendedSong.play(); // This will include the duration in the output
+        - extendedSongWithReleaseDate.play(); // This will include the release date in the output
+        - playlist.addSong(song1); // Adds song to playlist list
+        - playlist.playAllSongs(); // Play all songs in the playlist
+        - playlist.showSongDetails(); // Show details of all songs in the playlist
+        - popSong.displayDetails(); // Display the details of the PopSong
+        - rockSong.displayDetails(); // Display the details of the RockSong
+        - public void play() // Method to play the song
+        - public void stop() // Method to stop the song
+        - public String getInfo() // Method to get the song's information in a string
+        - public void displayDetails() // Method to display details of the song
+        -  @Override
+            public String getAlbum() {
+                return album; // Return the album of the song
+             }
+        - public abstract String getAlbum() // Abstract method to return the album name (which will be implemented by subclasses)
+        - public void displayDetails() // Method to display the song details (title, artist, and album)
+        - public void addSong(MusicLibrary2 song) // Method to add a song to the playlist
+        - public void playAllSongs() // Method to play all songs in the playlist
+        - public void showSongDetails() // Method to show details for each song in the playlist
+        - @Override
+             public void play() // Override the play method to include duration when playing the song
+        -  public void displayDuration() // New method to display the song's duration
+        - @Override
+            public String getInfo() // Override the getInfo method to include duration information
+        - public void displayReleaseDate() // New method to display the song's release date
+        - @Override
+            public String getInfo() // Override the getInfo method to include release date information
     
-
 
 ## Roadblocks and Unfinished Functionality
 
